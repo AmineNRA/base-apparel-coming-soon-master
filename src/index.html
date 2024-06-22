@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./scss/index.scss">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap" rel="stylesheet">
+<script type="module" src="./javascript/index.js"></script>
+  
+  <title>Frontend Mentor | Base Apparel coming soon page</title>
+</head>
+<body>
+  <div class="test">
+    <div class="emailMessage hidden"></div>
+    <header>
+      <img src="./images/logo.svg" alt="base apparel" class="title">
+    </header>
+  <main>
+    <div class="img"></div>
+    <div class="container">
+    <p class="container__title">We're <span class="container__title--soon">coming soon</span></p>
+        <p class="container__text">
+          Hello fellow shoppers! We're currently building our new fashion store. 
+          Add your email below to stay up-to-date with announcements and our launch deals.
+        </p>
+        <form action="get">
+          <label for="email">
+          <input type="email" name="email" id="email" class="container__input" placeholder="Email Address" required>
+          <button type="submit" class="container__button"><img src="/src/images/icon-arrow.svg" alt="valider"></button>
+        </label>
+        </form>
+      </div>
+    </main>
+  </div>
+  <div class="imgdesktop"></div>
+</body>
+</html>

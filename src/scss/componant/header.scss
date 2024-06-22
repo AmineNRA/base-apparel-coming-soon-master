@@ -1,0 +1,14 @@
+@use '../mixin.scss';
+
+header{
+    padding: 2.5rem 2rem;
+    @include mixin.large{
+    align-self: flex-start;
+    margin-left: 15rem;
+    margin-bottom: 4rem;
+    }
+    img{
+        display: inline;
+        margin: 0;
+    }
+}

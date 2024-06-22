@@ -1,0 +1,30 @@
+{
+  "name": "apparel",
+  "version": "1.0.0",
+  "description": "exercice frontend",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "parcel {src/*.html,src/**/*.html}",
+    "build": "parcel build {src/*.html,src/**/*.html}",
+    "clear": "rm -rf .parcel-cache dist"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/AmineNRA/base-apparel-coming-soon-master.git"
+  },
+  "author": "amineNRA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AmineNRA/base-apparel-coming-soon-master/issues"
+  },
+  "dependencies": {
+    "parcel": "^2.12.0",
+    "reset-css": "^5.0.1"
+  },
+  "homepage": "https://github.com/AmineNRA/base-apparel-coming-soon-master#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.12.0",
+    "sass": "^1.77.6"
+  }
+}
