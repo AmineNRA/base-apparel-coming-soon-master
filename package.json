@@ -2,7 +2,7 @@
   "name": "apparel",
   "version": "1.0.0",
   "description": "exercice frontend",
-  "main": "index.js",
+  "main": "index.html",
   "scripts": {
     "test": "test",
     "start": "parcel {src/*.html,src/**/*.html}",
